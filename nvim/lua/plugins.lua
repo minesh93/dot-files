@@ -16,6 +16,8 @@ return require('packer').startup(function(use)
     -- Post-install/update hook with neovim command
     use { 'nvim-treesitter/nvim-treesitter' }
 
+    use { "catppuccin/nvim", as = "catppuccin" }
+
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.4',
         requires = { {'nvim-lua/plenary.nvim'} }

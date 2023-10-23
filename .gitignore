@@ -1,2 +1,13 @@
 nvim/plugin
 nvim/plugin/packer_compiled.lua
+
+gtk-3.0
+dconfg
+dconf
+htop
+kde.org
+pulse
+qt5ct
+session
+systemd
+yay
