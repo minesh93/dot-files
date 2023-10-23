@@ -1,0 +1,16 @@
+* {
+	font-family: "FiraCode Nerd Font Mono Ret";
+}
+
+window#waybar {
+	background: rgba(0, 0, 0, 0.2);
+	color: #ffffff;
+	border: none
+}
+
+#clock, #network, #pulseaudio, #battery, #tray, #disk, #backlight,
+#memory, #cava, #window  {
+	background: transparent;
+	color: #ffffff;
+	padding: 5px;
+}
