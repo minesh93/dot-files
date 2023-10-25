@@ -23,6 +23,10 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    use 'nvim-lualine/lualine.nvim'
+
+
+
     -- Use dependency and run lua function after load
     -- use { 'lewis6991/gitsigns.nvim', tag = 'release',
         --reqiures = { 'nvim-tree/nvim-web-devicons' }

@@ -4,7 +4,10 @@ nvim/plugin/packer_compiled.lua
 gtk-3.0
 dconfg
 dconf
+dolphinrc
 htop
+libfm
+pcmanfm
 kde.org
 pulse
 qt5ct
