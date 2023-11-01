@@ -2,7 +2,7 @@
 
 
 -- Only required if you have packer configured as `opt`
-    vim.cmd.packadd('packer.nvim')
+-- vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)
     -- Packer can manage itself
@@ -25,7 +25,12 @@ return require('packer').startup(function(use)
 
     use 'nvim-lualine/lualine.nvim'
 
+    use { 
+        'utilyre/barbecue.nvim', tag = 'v1.0.1',
+        requires = { {'SmiteshP/nvim-navic' } }
+    }
 
+    use 'nvimdev/dashboard-nvim'
 
     -- Use dependency and run lua function after load
     -- use { 'lewis6991/gitsigns.nvim', tag = 'release',
